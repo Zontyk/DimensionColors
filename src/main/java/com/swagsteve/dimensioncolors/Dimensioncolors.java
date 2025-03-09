@@ -51,7 +51,7 @@ public final class Dimensioncolors extends JavaPlugin implements Listener {
 
         //Version management
         String version = Bukkit.getVersion();
-        if (version.contains("1.13") || version.contains("1.14") || version.contains("1.15") || version.contains("1.16") || version.contains("1.17") || version.contains("1.18") || version.contains("1.19") || version.contains("1.20")) {
+        if (version.contains("1.13") || version.contains("1.14") || version.contains("1.15") || version.contains("1.16") || version.contains("1.17") || version.contains("1.18") || version.contains("1.19") ||  version.contains("1.20") || version.contains("1.21") || version.contains("1.21.4")) {
             colorFunctions = new Dimensioncolors1_13();
         } else {
             getServer().getPluginManager().disablePlugin(this);
